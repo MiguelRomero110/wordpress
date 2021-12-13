@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*
+Theme Name: Info Basic
+Theme URI: https://wordpress.org/themes/infobasic/
+Author: Miguel Romero
+Description: Tema wordpress infobasic de 2021, con el que aprendere a crear mis propios temas. A partit de WordPress 4.9.6
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: infobasic
+*/
+
+:root{
+    --main-color:rgb(226, 112, 5);
+    --background-body:rgb(243, 182, 124);
+    --text-color:rgb(53, 19, 4);
+    --text-color-active:rgb(141, 70, 40);
+    --text-color-hover:rgb(247, 161, 82);
+    --background-color-hover:rgb(39, 13, 1);
+    --text-light-color:rgb(247,161,82); 
+}
+
+body{
+    background-color: var(--background-body);
+}
+
+.navbar{
+    background-color: var(--main-color);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--text-color);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: var(--text-color-active);
+}
+
+.dropdown-menu{
+    background-color: var(--main-color);
+}
+
+.dropdown-menu a:hover{
+    background-color: var(--text-color-hover);
+}
+
+.jumbotron{
+    color: var(--text-light-color);
+    height: 400px;
+}
+
+.jumbo-tienda{
+    background-image: url(inc/img/logo_puta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbo-jeans{
+    background-image: url(inc/img/logo_puta_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbo-samarreta{
+    background-image: url(inc/img/logo_puta_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbo-font{
+    background-image: url(inc/img/logo_puta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container img{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--main-color);
+    margin-top: 20px;
+} 
+
+.footer3 a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer3 ul{
+    list-style: none;
+}
+
+.footer6 a{
+    text-decoration: none;
+    color: var(--text-color);
+}
